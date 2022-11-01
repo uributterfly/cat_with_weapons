@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    user-select: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+// all the coool container in the middle
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// player I name | player II name
+form{
+    text-align: center;
+    padding: 30px 0;
+    
+    input{
+        border: 0;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.13);
+        padding: 15px 20px;
+        border-radius: 50px;
+        margin: 10px 0;
+        width: 90%;
+    }
+    
+    p {
+        margin-top: 20px;
+        a {
+            text-decoration: none;
+            color: cadetblue;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    
+}
+
+
+// it's (someone) time!
+.time_cont{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    #time{
+        padding: 20px;
+    }
+}
+
+//button container/button in the bottom of the main container
+.btn_cont{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    button{
+        border: 0;
+        border-radius: 50px;
+        margin: 30px auto;
+        padding: 10px 20px;
+        
+        background-color: cadetblue;
+        transition: 0.2s ease;
+        &:hover{
+            cursor: pointer;
+            color: white;
+            background-color: #416a6b;
+        }
+        &:active{
+            transform: scale(0.9);
+        }
+
+    }
+
+
+}
+
+// the cute cat image with a gun
+img{
+    position: absolute;
+    padding: 20px;
+    border-radius: 50px;
+}

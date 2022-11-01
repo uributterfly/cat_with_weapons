@@ -1,2 +1,10 @@
-# cat_with_weapons
-two players, one will get an image of a cat with a weapon, yeah, that's it, CATS WITH WEAPONS! also it is mobile first
+<div align="center">
+  Play here: https://uributterfly.github.io/cat_with_weapons/
+  
+  # 
+
+  <img src="IMG/cat_screenshot1.jpeg" />
+  <img src="IMG/cat_screenshot2.jpeg" />
+  <img src="IMG/cat_screenshot3.jpeg" />
+
+<div>
